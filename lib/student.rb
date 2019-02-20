@@ -39,7 +39,9 @@ class Student
   end
   
   def self.CREATE
-    
+    student.new(name, grade)
+    student.save
+    student
   end
   
 end
